@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+main {
+    margin: 2rem auto;
+    padding: 2rem;
+    max-width: 800px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+h1, h2, h3 {
+    text-align: center;
+    color: #4CAF50;
+}
+form {
+    margin-top: 2rem;
+}
+label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+input[type="radio"] {
+    margin-right: 0.5rem;
+}
+button {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    margin-top: 2rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #45a049;
+}
+#resultado {
+    margin-top: 2rem;
+    padding: 1rem;
+    background: #f1f1f1;
+    border-left: 4px solid #4CAF50;
+    border-radius: 5px;
+}
+#resultado h2 {
+    margin-top: 0;
+}
+ul {
+    padding-left: 1.5rem;
+}
+ul li {
+    margin-bottom: 0.5rem;
+}
